@@ -12,9 +12,8 @@ import javax.persistence.Id;
 @EqualsAndHashCode
 @Builder
 @Entity
-public class WorkingDay {
+public class DataType {
     @Id
-    private Long id;
+    private long id;
     private String description;
-
 }

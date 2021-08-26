@@ -12,9 +12,9 @@ import javax.persistence.Id;
 @EqualsAndHashCode
 @Builder
 @Entity
-public class WorkingDay {
+public class Occurrence {
     @Id
-    private Long id;
+    private long id;
+    private String occurrenceName;
     private String description;
-
 }
