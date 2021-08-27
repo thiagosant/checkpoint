@@ -2,6 +2,8 @@ package com.sansoft.checkpoint.repository;
 
 import com.sansoft.checkpoint.model.WorkingDay;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface DayRepository extends JpaRepository<WorkingDay, Long> {
+@Repository
+public interface JourneyRepository extends JpaRepository<WorkingDay, Long> {
 }
